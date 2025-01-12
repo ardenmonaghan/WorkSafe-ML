@@ -76,6 +76,7 @@ We initially start out with a model that can classify what kind of safety gear i
 - multi part loss that penalizes (x,y,w,h) mistakes
 - confidence errors where box with high confidence doesn't contain an object
 - classification errors
+- anchor boxes in yolo
 
 ## Non-Max Suppression:
 - YOLO outputs multiple bounding boxes per grid cell, and many may overlap or be duplicates.
